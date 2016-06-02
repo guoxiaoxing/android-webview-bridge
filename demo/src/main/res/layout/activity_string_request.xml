@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_string_request"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.guoxiaoxing.string.StringRequestActivity">
+
+    <TextView
+        android:id="@+id/tv_request_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        tools:text="请求数据"/>
+
+    <Button
+        android:id="@+id/btn_string_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_request"
+        app:layout_constraintBottom_toBottomOf="@id/activity_string_request"/>
+
+</android.support.constraint.ConstraintLayout>
